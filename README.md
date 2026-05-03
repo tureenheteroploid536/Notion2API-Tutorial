@@ -4,7 +4,7 @@
 
 ![7043e095bb35daf91c57c9ad62aad3d2.png](./_resources/7043e095bb35daf91c57c9ad62aad3d2.png)
 
-Notion AI 非常丰富，包括 **Opus 4.7**，**Gemini 3.1 Pro**，**GPT-5.5** 等等顶级 AI，如果有教育邮箱额度会更高一个层次。
+Notion AI 非常丰富，包括 **Opus 4.7**，**Gemini 3.1 Pro**，**GPT-5.5** 等等顶级 AI，如果有教育邮箱额度会更高一个层次？（不确定，但官方从未说过教育版会提高 AI 额度）
 
 ![d2b3e7f2aa3b25fb202ac1ab97b283af.png](./_resources/d2b3e7f2aa3b25fb202ac1ab97b283af.png)
 
