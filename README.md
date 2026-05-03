@@ -8,6 +8,8 @@ Notion AI 非常丰富，包括 **Opus 4.7**，**Gemini 3.1 Pro**，**GPT-5.5** 
 
 ![d2b3e7f2aa3b25fb202ac1ab97b283af.png](./_resources/d2b3e7f2aa3b25fb202ac1ab97b283af.png)
 
+项目地址：https://github.com/GALIAIS/Notion2API
+
 推荐服务器部署，不要选择国内地区，选择 Linux 版本 Docker 上手快。
 
 腾讯云新加坡，硅谷，东京地区价格是199元一年，2核4G30M带宽，60GBSSD盘 1.5T月流量，推荐首尔地区↓↓↓，系统选Ubuntu24，可以同样价格续费。
